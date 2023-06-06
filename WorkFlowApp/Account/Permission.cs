@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WorkFlowApp.Account
+namespace WorkflowApp.Account
 {
     // ユーザーが承認するためのパーミッションクラス
     internal class Permission

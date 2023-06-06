@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WorkFlowApp.Account
+namespace WorkflowApp.Account
 {
     // 申請を作成したり、承認するユーザー
     internal class User

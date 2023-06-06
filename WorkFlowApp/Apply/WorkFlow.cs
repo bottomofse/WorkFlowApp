@@ -1,15 +1,16 @@
 ﻿using System;
 
-namespace WorkFlowApp.Apply
+namespace WorkflowApp.Apply
 {
     // ワークフローの承認ルートを表現するクラス
-    internal class WorkFlow
+    internal class Workflow
     {
         // 承認ルートの先頭ステップ
-        private IWorkFlowStep head;
+        private IWorkflowStep head;
 
-        // 次に承認するステップ
-        private IWorkFlowStep current;
+        // 現在のステップ
+        // 初期値はnull
+        private IWorkflowStep current;
 
     }
 }

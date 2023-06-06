@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WorkFlowApp.Test
+namespace WorkflowApp.Test
 {
     internal class AccountTest
     {

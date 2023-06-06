@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WorkFlowApp.Account
+namespace WorkflowApp.Account
 {
     // グループの役職
     internal class Position
