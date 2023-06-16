@@ -12,5 +12,6 @@ namespace WorkflowApp.Apply
         // 初期値はnull
         private IWorkflowStep current;
 
+
     }
 }
