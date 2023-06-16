@@ -6,7 +6,6 @@ namespace WorkflowApp.Apply
 
     internal interface IWorkflowStep
     {
-
     }
 
     // 承認ルート内の承認ステップを表現するクラス
@@ -22,13 +21,32 @@ namespace WorkflowApp.Apply
         private Permission needPermission;
 
         // 次の承認ステップ
-        private IWorkFlowStep nextWorkFlowStep;
+        private IWorkflowStep next;
+
+        // 前の承認ステップ
+        private IWorkflowStep previous;
 
         // 削除可能か
         private bool deletable = false;
 
         //実際の承認者
         private User approvedUser;
+
+        public bool isDeletable()
+        {
+            return deletable;
+        }
+
+        public bool isApproved()
+        {
+            return approved;
+        }
+
+        //現在のステップに承認を行う
+        public void approve()
+        {
+
+        }
 
     }
 }
