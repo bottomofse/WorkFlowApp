@@ -3,7 +3,7 @@ namespace WorkflowApp.Account
 {
     internal interface IAccountRepository
     {
-        public void save();
-        public void delete();
+        public void login();
+        public void logout();
     }
 }

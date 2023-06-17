@@ -3,7 +3,7 @@ using WorkflowApp.Account;
 
 namespace WorkflowApp.Repository
 {
-    internal class AccountRepository: IAccountRepository
+    internal class TestAccountRepository: IAccountRepository
     {
         public void login()
         {
@@ -13,6 +13,5 @@ namespace WorkflowApp.Repository
         {
 
         }
-
     }
 }
